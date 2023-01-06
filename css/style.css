@@ -29,10 +29,98 @@ header p{
 }
 .btn{
     padding: 14px 30px;
-    color: blue;
-    font-weight: bold;
+    color: #005FAC;
+    font-weight: 600;
     font-size: 18px;
     cursor: pointer;
     border: 0;
     border-radius: 5px;
+}
+
+/* failure */
+.failure{
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.failure h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+.desc{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0;
+}
+/* planning section */
+.planning{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+.planning h3{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.plans h4{
+    padding: 10px 0;
+    font-size: 22px;
+}
+.plans p{
+    font-weight: 300;
+}
+/* mindset section */
+.mindset{
+    width: 70%;
+    margin: 0 auto;
+    background-image: url('../images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    color: white;
+    padding: 60px 50px;
+    margin-bottom: 100px;
+}
+.mindset h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* footer */
+footer{
+    background-color: black;
+    padding: 100px 0px;
+}
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+.f-details h3{
+    font-size: 40px;
+}
+.f-details p{
+    font-weight: 300;
+}
+input[type="email"]{
+    padding: 14px 40px;
+    margin-top: 20px;
+}
+input[type="button"]{
+    padding: 14px 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #005FAC;
+    color: #FFF;
+    margin-top: 5px;
 }
