@@ -41,11 +41,15 @@ header p{
 .failure{
     width: 70%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 130px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+.fa{
+    color: rgb(60, 231, 60);
+    margin-right: 8px;
 }
 .failure h3{
     font-weight: 700;
@@ -61,7 +65,7 @@ header p{
 .planning{
     width: 70%;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 .plans{
     display: flex;
@@ -88,12 +92,37 @@ header p{
     background-blend-mode: overlay;
     color: white;
     padding: 60px 50px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 .mindset h3{
     font-size: 40px;
     font-weight: 700;
 }
+/* resume section */
+.resume{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+.resume-title{
+    font-size: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.resume-item{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.resume-item .title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.resume-item .sub-title{
+    font-size: 17px;
+    font-weight: 600;
+    padding-top: 6px 0;
+}
+
 /* footer */
 footer{
     background-color: black;
